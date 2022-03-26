@@ -13,13 +13,6 @@ const AppLayout = (props) => {
         <Header />
         {props.children}
       </div>
-      {/* <Nav landingPage={landingPage} setModalShow={openAuth}/> */}
-  
-      {/* <AuthModal 
-      show={modalShow}
-      onHide={() => setModalShow(false)}
-      setModalShow={setModalShow}
-      /> */}
     </div>
   )
 }

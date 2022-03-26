@@ -1,7 +1,5 @@
 import React from 'react'
-// import ApexCharts from 'apexcharts'
 import Charts from "react-apexcharts";
-// ReactApexChart
 const Graph = ({ analytic}) => {
   const { color } = analytic;
 
@@ -44,7 +42,6 @@ const options = {
     borderColor: '#ECEBF5',
   },
 }
-
 
   return (
     <div>

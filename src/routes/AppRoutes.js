@@ -7,7 +7,6 @@ import {
 import Team from '../pages/Team'
 
 import AppLayout from "../layout/AppLayout";
-import AgentInbox from "../pages/AgentInbox";
 import OtherPage from "../components/OtherPage";
 
 const AppRoutes = (props) => {
@@ -52,7 +51,6 @@ const AppRoutes = (props) => {
                 </AppLayout>
             }/> 
             
-    
         </Routes> 
     </BrowserRouter>
   );

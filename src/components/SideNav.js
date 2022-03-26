@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 
 import {
-  Link,
-  useLocation
+  Link
 } from "react-router-dom";
 
 import admin from "../assets/images/admin.png"
@@ -44,8 +43,6 @@ const SideNav = () => {
 
         <img className='menuBar' onClick={() => setMenuStatus(!menuStatus)} src={ menuStatus?cancel:menuBar } 
         alt="menu" />
-
-
         <div className='sideNav_contents'>
           <ul className={ menuStatus?'open':'close' }>
             <li><Link to="/admin" onClick={() => setMenuStatus(false)}><img src={admin} alt="admin logo" /> Admin</Link></li>
